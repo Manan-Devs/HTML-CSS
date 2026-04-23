@@ -3,17 +3,109 @@
 }
 
 .container {
+     display:flex;
+     flex-direction:column;
+     gap:40px;
      width:100%;
-     max-width:400px;
+     max-width:1200px;
      margin:auto;
 }
 
+nav , #Hero , #Services, #Benefits, #Testimonials, #Contact , footer {
+     margin-bottom:75px;
+     text-align:center;
+}
+
+
+#Hero {
+     display: flex;
+     flex-direction:column;
+     align-items:center;
+     gap:60px;
+}
+
+#Services {
+     display: flex;
+     flex-direction:column;
+     align-items:center;
+     gap:60px;
+}
+
+#Benefits {
+     display: flex;
+     flex-direction:column;
+     align-items:center;
+     gap:60px;
+}
+
+#Testimonials {
+     display: flex;
+     flex-direction:column;
+     align-items:center;
+     gap:60px;
+}
+
+#Contact {
+     display: flex;
+     flex-direction:column;
+     align-items:center;
+     gap:60px; 
+}
 h1 {
      font-size:3rem;
+     font-weight:bold;
+     font-family:Arial, Helvetica, sans-serif;
 }
 
 p {
-     font-size:1.2rem;
+     font-size:1.5rem;
      line-height:2;
+}
+
+ul {
+      display:flex;
+      justify-content:space-around;
+      list-style:none;
+}
+
+a {
+      text-decoration:none;
+      color:black;
+}
+
+#Benefits ul{
+      flex-direction:column;
+      gap:60px;
+}
+
+button {
+    padding:20px 30px;
+    cursor:pointer;
+    border-radius:5px;
+    border:thin;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+
+hr {
+     width:100%;
+     max-width:600px;
+     margin:auto;
+     font-weight:bold;
+}
+
+footer {
+      text-align:center;
+      margin-bottom:0;
+}
+
+
+@media screen and (max-width:768px) {
+       nav ul {
+           display:flex;
+           flex-direction:column;
+           gap:40px;
+           padding-right:35px;
+       }
 }
 
