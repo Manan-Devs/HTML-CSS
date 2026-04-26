@@ -1,147 +1,157 @@
 * {
-    box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
 }
 
 .container {
-     display:flex;
-     flex-direction:column;
-     gap:40px;
-     width:100%;
-     max-width:1200px;
-     margin:auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 
-nav, #Hero , #Services, #Benefits, #Testimonials, #Contact , footer {
-     margin-bottom:75px;
-     text-align:center;
+nav,
+#Hero,
+#Services,
+#Benefits,
+#Testimonials,
+#Contact,
+footer {
+  margin-bottom: 75px;
+  text-align: center;
 }
 
 nav {
-     display:flex;
-     justify-content:space-between;
-     align-items: center;
-     font-size:1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
 }
 
 .logo {
-     max-width:120px;
+  max-width: 140px;
 }
 
 img {
-      width:100%;
-      height:auto;
+  width: 100%;
+  height: auto;
+  border-radius: 90%;
+  cursor: pointer;
 }
 
 #Hero {
-     display: flex;
-     flex-direction:column;
-     align-items:center;
-     gap:60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
 }
 
 #Services {
-     display: flex;
-     flex-direction:column;
-     align-items:center;
-     gap:60px;
-     text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  text-align: center;
 }
 
 #Benefits {
-     display: flex;
-     flex-direction:column;
-     align-items:center;
-     gap:60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
 }
 
 #Testimonials {
-     display: flex;
-     flex-direction:column;
-     align-items:center;
-     gap:60px;
-}    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
 
 #Testimonials div {
-      display: flex;
-      flex-direction:column;
-      gap:100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 #Contact {
-     display: flex;
-     flex-direction:column;
-     align-items:center;
-     gap:60px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
 }
 h1 {
-     font-size:3rem;
-     font-weight:bold;
-     font-family:Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-     font-size:2rem;
-     line-height:2;
+  font-size: 2rem;
+  line-height: 2;
 }
 
 ul {
-      display:flex;
-      gap:5rem;
-      list-style:none;
+  display: flex;
+  gap: 5rem;
+  list-style: none;
 }
 
 a {
-      text-decoration:none;
-      color:black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-        text-decoration:underline;
-        transition:0.5s ease-in-out;
+  text-decoration: underline;
+  transition: 0.5s ease-in-out;
 }
 
-#Benefits ul{
-      flex-direction:column;
-      gap:100px;
-      padding-right:50px;
-      font-size:1.5rem;
+#Benefits ul {
+  flex-direction: column;
+  gap: 100px;
+  padding-right: 50px;
+  font-size: 1.5rem;
 }
 
 button {
-    padding:20px 30px;
-    cursor:pointer;
-    border-radius:5px;
-    border:thin;
-    font-weight:bold;
-    font-size:1.5rem;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: thin;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 button:hover {
-      background-color:lightgray;
-      border-radius:20px;
-      text-decoration:underline;
-      transition:0.5s ease-in-out;
+  background-color: lightgray;
+  border-radius: 20px;
+  text-decoration: underline;
+  transition: 0.5s ease-in-out;
 }
 
 hr {
-     width:100%;
-     max-width:600px;
-     margin:auto;
-     font-weight:bold;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  font-weight: bold;
 }
 
 footer {
-      text-align:center;
-      margin-bottom:0;
+  text-align: center;
+  margin-bottom: 0;
 }
 
-
-@media screen and (max-width:768px) {
-       nav ul {
-           display:flex;
-           flex-direction:column;
-           gap:40px;
-           padding-right:35px;
-       }
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 35px;
+  }
 }
-
