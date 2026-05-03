@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 8</title>
+  </head>
+  <style>
+    .red-square {
+      height: 100px;
+      width: 100px;
+      background-color: red;
+      display: inline-block;
+      margin-right: 40px;
+    }
+
+    .green-circle {
+      height: 100px;
+      width: 100px;
+      background-color: green;
+      border-radius: 50px;
+      display: inline-block;
+    }
+
+    .wrapper {
+      border: 1px solid black;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 50px;
+      padding: 15px;
+      width: 250px;
+    }
+
+    .wrapper-2 {
+      border: 1px solid black;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 50px;
+      padding: 15px;
+      width: 350px;
+      background-color: rgb(24, 24, 24);
+      color: white;
+      font-weight: bold;
+    }
+
+    .wrapper-3 {
+      display: inline-block;
+      background-color: rgb(241, 239, 239);
+      padding-right: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      width: 100%;
+      margin: auto;
+      max-width: 1200px;
+      display: flex;
+      gap: 110px;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .content {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .cat-jpg {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    h3 {
+      font-family: "Arial, Helvetica, sans-serif";
+      font-size: 20px;
+    }
+
+    .tweet {
+      background-color: #075cccfd;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="red-square"></div>
+
+    <div class="green-circle"></div>
+
+    <div class="wrapper">
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+
+    <div class="wrapper-2">
+      <h1>Intsall Youtube Music</h1>
+      <p>Add Youtube Music to your desktop for quick and easy access</p>
+    </div>
+
+    <div class="wrapper-3">
+      <div class="container">
+        <div class="content">
+          <img class="cat-jpg" src="assets/cat.jpg" alt="cat.jpg" />
+          <h3>What's happening?</h3>
+        </div>
+        <button class="tweet">Tweet</button>
+      </div>
+    </div>
+  </body>
+</html>
