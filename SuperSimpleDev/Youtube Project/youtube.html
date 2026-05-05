@@ -21,6 +21,21 @@
         vertical-align: top;
         margin-right: 15px;
       }
+
+      .channel-picture {
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+
+      .profile-picture {
+        width: 100%;
+      }
     </style>
     <title>Youtube Clone.com</title>
   </head>
@@ -28,26 +43,45 @@
     <input class="search-bar" type="text" placeholder="Search" />
 
     <div class="video-preview">
-      <img
-        class="thumbnail"
-        src="assets/thumbnail-1.webp"
-        alt="thumbnail-1.webp"
-      />
+      <div>
+        <img
+          class="thumbnail"
+          src="assets/thumbnail-1.webp"
+          alt="thumbnail-1.webp"
+        />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img
+            class="profile-picture"
+            src="assets/channel-1.jpeg"
+            alt="channel-1.jpeg"
+          />
+        </div>
 
-      <p>Talking Tech and <strong>AI with</strong> Google CEO Sundar Pichai.</p>
-      <p class="video-author">Marques Brownlee</p>
-      <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        <div class="video-info">
+          <p>
+            Talking Tech and <strong>AI with</strong> Google CEO Sundar Pichai.
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
     </div>
 
     <div class="video-preview">
-      <img
-        class="thumbnail"
-        src="assets/thumbnail-2.webp"
-        alt="thumbnail-2.webp"
-      />
-      <p>Try Not To Laugh Challenge #9</p>
-      <p class="video-author">Markiplier</p>
-      <p class="video-stats">19M view &#183; 4 years ago</p>
+      <div>
+        <img
+          class="thumbnail"
+          src="assets/thumbnail-2.webp"
+          alt="thumbnail-2.webp"
+        />
+      </div>
+      <div>
+        <p>Try Not To Laugh Challenge #9</p>
+        <p class="video-author">Markiplier</p>
+        <p class="video-stats">19M view &#183; 4 years ago</p>
+      </div>
     </div>
   </body>
 </html>
