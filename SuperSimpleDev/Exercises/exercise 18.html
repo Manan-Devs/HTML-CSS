@@ -83,6 +83,17 @@
         cursor: pointer;
         font-family: "Roboto";
       }
+
+      @media screen and (max-width:768px) {
+            .item {
+                 flex-direction:column;
+                 gap:40px;
+            }
+            
+            .img-info-container {
+                 gap:60px;
+            }
+      }
     </style>
     <div class="container">
       <div class="item">
@@ -119,7 +130,7 @@
           <button>Follow</button>
         </div>
       </div>
-       <div class="item">
+       <div class="item" style="margin-bottom:20px;">
             <div class="img-info-container">
             <div class="img-container">
               <img class="dog-jpg" src="assets/dog.jpg" alt="dog.jpg" />
