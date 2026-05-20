@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 20</title>
+  </head>
+  <body>
+    <style>
+      .items-container {
+        display: flex;
+        width: 500px;
+      }
+
+      .items-inside-container {
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-between;
+      }
+    </style>
+    <div class="items-container">
+      <div style="background-color: lightpink; flex: 1"></div>
+      <div style="background-color: lightblue; flex: 2">
+        <div>row1</div>
+        <div class="items-inside-container">
+          <div>
+            <span style="background-color: black; color: white">row2</span>
+          </div>
+          <div>
+            <span style="background-color: black; color: white">row2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
