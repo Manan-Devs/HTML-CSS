@@ -20,6 +20,9 @@
         width: 550px;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
         border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
       }
 
       .heading-cont p {
@@ -28,6 +31,14 @@
       }
 
       .cat-jpg {
+        width: 70px;
+        height: 70px;
+        border-radius: 60px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .dog-jpg {
         width: 70px;
         height: 70px;
         border-radius: 60px;
@@ -90,6 +101,38 @@
           </div>
           <div class="info-content">
             <p>Hey there! We're writing to tell you about our...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg-info-cont">
+        <img class="dog-jpg" src="assets/dog.jpg" alt="dog.jpg" />
+        <div class="info-container">
+          <div class="info-heading">
+            <h2>Best Buy</h2>
+            <p>12:32</p>
+          </div>
+          <div class="info-sub-heading">
+            <h2>Your Best Buy eReceipt</h2>
+          </div>
+          <div class="info-content">
+            <p>Thank you for shopping at Best Buy, here is...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg-info-cont">
+        <img class="cat-jpg" src="assets/cat-2.jpg" alt="cat-2.jpg" />
+        <div class="info-container">
+          <div class="info-heading">
+            <h2>Netflix</h2>
+            <p>9:00 AM</p>
+          </div>
+          <div class="info-sub-heading">
+            <h2>Here's what coming soon to Netflix</h2>
+          </div>
+          <div class="info-content">
+            <p>Brand new movies and shows , old favorites...</p>
           </div>
         </div>
       </div>
