@@ -6,28 +6,93 @@
     <title>Exercise 21</title>
   </head>
   <body>
-        <style>
-     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-             .gm-inbox-cont {
-                 padding:1px 0px 5px 30px;
-                 background-color:white;
-                 max-width:500px;
-             }
+      .gm-inbox-cont {
+        padding: 1px 0px 20px 25px;
+        background-color: white;
+        width: 550px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+      }
 
-             p {
-                 color:black;
-                 font-family:'Roboto';
-             }
-        </style>
+      .heading-cont p {
+        color: lightgray;
+        font-family: "Roboto";
+      }
 
+      .cat-jpg {
+        width: 70px;
+        height: 70px;
+        border-radius: 60px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .msg-info-cont {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .info-heading {
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        align-items: center;
+        font-weight: bold;
+        font-family: "Roboto";
+      }
+
+      .info-heading p {
+        color: rgb(211, 211, 211);
+      }
+
+      .info-sub-heading {
+        margin-top: -30px;
+        font-family: "Roboto";
+        font-size: 13px;
+      }
+
+      .info-content {
+        margin-top: -25px;
+        font-family: "Roboto";
+        color: rgba(211, 211, 211, 0.858);
+        font-size: 20px;
+      }
+    </style>
 
     <div class="gm-inbox-cont">
       <div class="heading-cont">
         <p>All INBOXES</p>
       </div>
       <div class="msg-info-cont">
+        <img class="cat-jpg" src="assets/cat.jpg" alt="cat.jpg" />
+        <div class="info-container">
+          <div class="info-heading">
+            <h2>Chewy Promotions</h2>
+            <p>4:58 PM</p>
+          </div>
+          <div class="info-sub-heading">
+            <h2>Biggest sales of the year!</h2>
+          </div>
+          <div class="info-content">
+            <p>Hey there! We're writing to tell you about our...</p>
+          </div>
+        </div>
       </div>
-    </divc>
+    </div>
   </body>
 </html>
