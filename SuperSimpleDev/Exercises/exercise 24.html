@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 24</title>
+  </head>
+  <body style="height: 3000px">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+      .header {
+        background-color: whitesmoke;
+        display: flex;
+        padding: 5px 200px 0px 200px;
+        height: 55px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+      }
+
+      .cat-jpg {
+        width: 40px;
+        height: 40px;
+        border-radius: 60px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .logo-container {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .logo-name {
+        font-family: "Roboto";
+        font-weight: bold;
+      }
+
+      .links-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+      }
+
+      button {
+        padding: 0.6rem;
+        width: 100px;
+        font-family: "Roboto";
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+
+    <div class="header">
+      <div class="logo-container">
+        <img class="cat-jpg" src="assets/cat.jpg" alt="cat-jpg" />
+        <p class="logo-name">Oliver Cat</p>
+      </div>
+      <div class="links-container">
+        <button style="background-color: rgb(88, 133, 255)">Add Friend</button>
+        <button style="background-color: lightgray">Message</button>
+      </div>
+    </div>
+  </body>
+</html>
