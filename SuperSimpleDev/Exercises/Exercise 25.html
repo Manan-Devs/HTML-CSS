@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 25</title>
+  </head>
+  <body style="height: 5000px">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+      .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 80vh;
+        background-color: rgb(69, 66, 66);
+        display: flex;
+      }
+
+      .channel-pictures-bar {
+        width: 25%;
+        background-color: black;
+      }
+
+      .channel-pictures-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 25px;
+        align-items: center;
+      }
+
+      .cat-jpg {
+        width: 70px;
+        height: 70px;
+        border-radius: 60px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .dog-jpg {
+        width: 70px;
+        height: 70px;
+        border-radius: 60px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .info-bar {
+        padding: 10px 25px 15px 25px;
+      }
+
+      .info-header {
+        display: flex;
+        gap: 200px;
+        align-items: center;
+      }
+
+      .add-icon {
+        width: 20px;
+        height: 20px;
+      }
+
+      h4 {
+        font-family: "Roboto";
+        font-size: 25px;
+        color: rgb(135, 132, 132);
+      }
+    </style>
+
+    <div class="sidebar">
+      <div class="channel-pictures-bar">
+        <div class="channel-pictures-container">
+          <img class="cat-jpg" src="assets/cat.jpg" alt="cat.jpg" />
+          <img class="cat-jpg" src="assets/cat-2.jpg" alt="cat-2.jpg" />
+          <img class="dog-jpg" src="assets/dog.jpg" alt="dog.jpg" />
+        </div>
+      </div>
+      <div class="info-bar">
+        <div class="info-header">
+          <p style="font-family: Roboto; color: white; font-weight: bold">
+            INFO
+          </p>
+          <img class="add-icon" src="assets/plus.png" alt="plus.png" />
+        </div>
+
+        <div class="info-lists">
+          <h4># &nbsp; &nbsp; new videos</h4>
+          <h4># &nbsp; &nbsp; updates</h4>
+          <h4># &nbsp; &nbsp; faq</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
