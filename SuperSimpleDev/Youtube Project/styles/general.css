@@ -9,5 +9,7 @@ p {
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgba(248, 248, 248, 0.637);
 }
