@@ -9,6 +9,10 @@
   display: block;
 }
 
+.video-preview {
+  cursor: pointer;
+}
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
@@ -30,15 +34,59 @@
   gap: 12px;
 }
 
+.video-tooltip-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.video-tooltip img {
+  height: 40px;
+  width: 40px;
+}
+
+.video-tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 15px 10px 15px 2px;
+  background-color: white;
+  bottom: -70px;
+  left: 3px;
+  width: 200px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  gap: 12px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.video-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.video-info-container p {
+  font-family: Roboto, Arial;
+  font-weight: bold;
+}
+
 .profile-picture {
   width: 36px;
   border-radius: 50px;
 }
 
+.channel-picture:hover .video-tooltip {
+  opacity: 1;
+}
+
 .thumbnail-row {
   margin-bottom: 8px;
   position: relative;
-  cursor: pointer;
 }
 
 .video-author,
