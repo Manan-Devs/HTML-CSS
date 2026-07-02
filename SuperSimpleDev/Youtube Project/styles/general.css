@@ -7,6 +7,7 @@ p {
 }
 
 body {
+  /* This Style below will be inherited */
   margin: 0;
   padding-top: 80px;
   padding-left: 96px;
